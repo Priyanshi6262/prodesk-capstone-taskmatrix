@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+=======
+# prodesk-capstone-taskmatrix
+TaskMatrix – Project Management Tool
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+TaskMatrix is a modern project management tool inspired by platforms like Jira and Asana.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+It allows teams to manage tasks using Kanban boards, assign work, track progress, and visualize workflows in an intuitive interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is built as a frontend-only application simulating real-world behavior using mock data and local storage.
 
-## Learn More
+ # Track
 
-To learn more about Next.js, take a look at the following resources:
+Frontend Intern
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#  Tech Stack
+1. Next.js
+2. Tailwind CSS
+3. React Hooks (useState, useReducer)
+4. Local Storage (for persistence)
+   
+# Core Features
+1. Kanban Board
+Columns: To Do, In Progress, Done
+Drag & drop tasks between columns
+2. Task Assignment
+Assign tasks to team members (mock users)
+3.  Due Dates
+Set and display deadlines for tasks
+4.  Priority Tags
+High / Medium / Low priority labels
+5.  Team Roles (UI only)
+Admin / Member role switch
+6.  ctivity Feed (Simulated)
+Logs actions like:
+Task created
+Task moved
+Task updated
+7. Local Storage Persistence
+Tasks remain after refresh
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ Future Improvements (Optional but impressive)
+Backend integration (Firebase / Supabase)
+Authentication system
+Real-time updates
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# state tree diagram
+# ![project diagram_page-0001](https://github.com/user-attachments/assets/b9420421-a724-4827-82da-9cd2fd5815d1)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# ui diagram
+![project_diagram_page-0001](https://github.com/user-attachments/assets/9f088e64-304b-4d03-99dd-43f6b741c2c7)
+![project_diagram_page-0002](https://github.com/user-attachments/assets/b13aca31-4a39-49c3-98ea-7a2d610359ee)
+![project_diagram_page-0003](https://github.com/user-attachments/assets/63e57b76-411c-4a77-99ea-c831a992f08e)
+
+
+
+>>>>>>> 21f78aa828ebc13458c463c19722106106588fac
